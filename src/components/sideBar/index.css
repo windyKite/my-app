@@ -101,6 +101,14 @@
   margin-bottom: 12px;
 }
 
+.menus>.menu>.notes:hover {
+  background: #282B32;
+}
+
+.menus>.menu>.notes:active {
+  background: #41454B;
+}
+
 .menus>.menu>.notes:last-child {
   margin-bottom: 0;
 }
