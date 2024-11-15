@@ -1,0 +1,127 @@
+.sideBar {
+  height: 100vh;
+  background-color: #282B32;
+  display: flex;
+}
+
+.side {
+  padding: 32px 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.side>.logo {
+  margin-bottom: 32px;
+}
+
+
+.side>.logo>img {
+  width: 24px;
+  height: 24px;
+}
+
+.side>.sideButtonGroups {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.side>.sideButtonGroups>.top {}
+
+.side>.sideButtonGroups .button.active {
+  background-color: #9F2AEC;
+}
+
+.side>.sideButtonGroups .button {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #575D64;
+  margin-bottom: 20px;
+}
+
+.menuContain {
+  width: 328px;
+  background-color: #1B1E28;
+  padding: 0 16px;
+  overflow: scroll;
+}
+
+.menuContain>.title {
+  padding-top: 24px;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.menus {
+  color: #fff;
+}
+
+.menus>.menu {
+  margin-bottom: 16px;
+}
+
+.menus>.menu>.createTime {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 4px;
+  border-radius: 8px 0px 0px 0px;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.menus>.menu>.createTime>img {
+  width: 16px;
+  height: 16px;
+  padding-top: 2px;
+}
+
+.menus>.menu>.notes {
+  width: 296px;
+  padding: 8px 12px 8px 12px;
+  gap: 4px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: 1px solid #41454B;
+  margin-bottom: 12px;
+}
+
+.menus>.menu>.notes:last-child {
+  margin-bottom: 0;
+}
+
+.menus>.menu>.notes>.title {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.menus>.menu>.notes>.duration {
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #9DA3AB;
+}
